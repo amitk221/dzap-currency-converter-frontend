@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+/* making variable  */
+.head {
+  background: url(../../assets/images/background.jpg);
+  background-size: cover;
+  background-position: center center;
+  border: 12px solid #226a83;
+  border-radius: 12px;
+  width: 100vw; /* Set width to full viewport width */
+  height: 100vh;
+}
+
+:root {
+  --orange: #a82605;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+.home {
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  border: 7px solid #f9f8f8;
+  border-radius: 10px;
+}
+.home .content {
+  padding: 0.8rem 0;
+  text-align: center;
+}
+.home .content h3 {
+  font-size: 1.3rem;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 0.1rem;
+  text-shadow: 0.5rem 0.5rem rgba(10, 6, 6, 0.7);
+}
+.home .content h3 span {
+  color: #dc3106;
+  font-size: 3rem;
+  text-shadow: 0.3rem 0.5rem white;
+  font-weight: bold;
+}
+.home .content p {
+  font-size: 1rem;
+  text-shadow: 0.3rem 0.3rem rgba(245, 88, 88, 0.5);
+  color: white;
+}
+.Data {
+  color: #f9f8f8;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.inputdata {
+  border: 2px solid #dc3106;
+}
+.clickon {
+  color: rgb(245, 239, 239);
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 0.5rem 3rem;
+  background: #a82605;
+  border: 2px solid #a82605;
+  border-radius: 8px;
+}
+.error {
+  border: 1px solid #dc3106;
+}
+
+.error-message {
+  color: #dc3106;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
